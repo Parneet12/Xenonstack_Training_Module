@@ -1,0 +1,2 @@
+GET /ping                             controllers.HomeController.ping
+GET /employee/details/:id             controllers.HomeController.getEmployeeDetailsByEmployeeId(id:Int)
