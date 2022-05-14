@@ -1,5 +1,11 @@
 package models
 
+import play._
+import play.db.jpa._
+import javax.persistence._
+import java.util._
+
+
 case class ErrorDetail(statusCode: Int)
 class EmployeeDetails {
   def fetchEmployeeDetailsById(id:Int): Any = {
@@ -9,6 +15,7 @@ class EmployeeDetails {
       case _ => ErrorDetail(400)
 
     }
+
 
   }
 

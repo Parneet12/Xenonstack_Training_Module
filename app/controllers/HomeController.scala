@@ -3,6 +3,7 @@ package controllers
 import java.awt.Desktop.Action
 import java.lang.System.Logger
 import javax.inject._
+import play.twirl.api.HtmlFormat
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
